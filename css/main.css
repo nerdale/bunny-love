@@ -1,0 +1,196 @@
+body{
+	background-color: #ecf7fb;
+}
+
+/* menu responsive */
+label {  
+  color: #037f99;
+}
+#menu-res {
+  display: none; /* hide the checkbox */
+}
+a{
+	text-decoration: none;
+}
+/* HEADER + BUNNY'S LOVE + MENU */
+.background-uno{
+	background-color: #037f99;
+	width: 100%;
+}
+.baloo{
+	font-family: 'Baloo Paaji';
+	color: white;
+	margin: 5% 0;
+	font-size: 30px;
+}
+.baloo span{
+	color: #ff7673;
+}
+.menu{
+	text-align: right;
+	font-family: 'Prompt';
+	font-weight: 100;
+	font-size: 14px;
+	margin-top: 3%;
+}
+.menu ul li{
+	display: inline-block;
+	list-style: none;
+}
+.menu ul li a{
+	font-size: 12px;
+	color: white;
+}
+.menu ul li a:hover{
+	background-color: #ff7673;
+}
+/* BACKGROUND FOTO + TITULO */
+.background-dos{
+	background: url(../img/img-1.jpg)no-repeat;
+	background-size: cover;
+	background-position: center 5%;
+	height: 350px;
+}
+.bunny{
+	margin: 7% 10% 0 10%;	
+	background-color: rgba(3, 127, 153, 0.7);
+}
+.bunny h1{
+	font-family: 'Baloo Paaji';
+	text-align: center;
+	color: #ff7673;
+	font-size: 75px;
+	padding-top: 5%;
+}
+.bunny p{
+	text-align: center;
+	font-size: 16px;
+	color: white;
+	font-family: 'Prompt';
+	font-weight: 100;
+	font-style: italic;
+	padding-bottom: 8%;		
+}
+/* 4 COLUMNAS FOTOS */
+
+.conejo{
+	background-color: #037f99;
+	border-top: 15px solid white;
+	border-bottom: 15px solid white;
+	border-right: 10px solid white;
+	border-left: 10px solid white;
+	height: 350px;
+}
+h4{
+	font-family: 'Baloo Paaji';
+	color: #ff7673;
+	text-align: center;
+}
+.conejo p{
+	font-family: 'Prompt';
+	color: white;
+	font-weight: 100;
+	font-size: 12px;
+	margin: 5%;
+	text-align: center;
+}
+.conejo img{
+	width: 100%;	
+}
+
+/* seccion 4 fotos conejos + fondo verde */
+.background-tres{
+	background-color: #037f99;
+	width: 100%;
+}
+
+.box-dos {
+	padding: 1%;
+}
+.conejo-dos img{
+	width: 100%;
+
+}
+.conejo-dos{
+	background-color: #ecf7fb;
+	border: 5px solid #037f99;	
+}
+.conejo-dos p, .conejo-tres p{
+	font-family: 'Prompt';
+	font-weight: 400;
+	font-size: 12px;
+	margin: 3%;
+}
+
+h5{
+	font-family: 'Baloo Paaji';;
+	padding: 0 3%;
+}
+.busqueda{
+	border-radius: 10px;
+	background: #ecf7fb;
+	padding: 8% 8%;
+	border: 5px solid #037f99;
+}
+
+.feedback-input {
+	font-size: 12px;
+	width: 100%;
+	padding: 5% 0;
+}
+.feedback-input:focus {
+	outline: none;
+}
+.conejo-tres img{
+	width: 100%;	
+}
+
+.conejo-tres{
+	background-color: #ecf7fb;
+	border: 5px solid #037f99;	
+}
+.conejo-tres p{
+	margin-bottom: 10%;
+}
+.video{
+	width: 100%;
+}
+.icono{
+	text-align: center;
+	color: #037f99;
+	margin: 5% 0;
+}
+.fa{
+	background-color: white;
+	border-radius: 60px;
+	width: 30px;
+	height: 30px;
+}
+.fa-instagram, .fa-facebook-official, .fa-twitter, .fa-youtube{
+	padding-top: 10%;
+}
+.icono a:visited{
+	text-decoration: none;
+	color: #037f99;
+}
+/* conejitos */
+.conejito{
+	background-image: url(../img/bunny-head.png);
+	background-size: 130px;
+	margin: 1% 0;
+	height: 60px;
+}
+/* footer */
+.footer{
+	background-color: #037f99;
+	width: 100%;
+	padding: 3% 0;
+	border-top: 3px solid #ff7673;
+}
+.footer p{
+	text-align: center;
+	color: white;
+	font-family: 'Prompt';
+	font-weight: 200;
+	font-size: 13px;
+}
